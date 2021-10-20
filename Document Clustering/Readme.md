@@ -1,4 +1,4 @@
-<h1>Implementation of clustering techniques on text data set</h1>
+<h1>IMPLEMENTATION OF CLUSTERING TECHNIQUES ON TEXT DATASET</h1>
 
 <h2>Flow of project<h2>
 
