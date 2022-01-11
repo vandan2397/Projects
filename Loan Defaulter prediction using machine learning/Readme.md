@@ -3,10 +3,10 @@
 One of the most pivotal issues faced by banks these days is Credit Risk Assessment. It assists banks in evaluating if a candidate poses a potential to repay the loan or not. 
 It results in reducing the possibility of losses and manage financial risk. Basically, The aim of the project is to leverage machine learning techniques such as Logistic Regression, SVM, Decision Tree, Random Forest, Ada Boost, Gradient Boosting, Extreme-gradient boosting and Extra trees to build a robust model to evaluate credit risk involved and predict loan defaulters based on different features. However, building such models is a challenging task as the data being analyzed is enormous and complex.
 
-- Identification of relevant and strong indicators of defaulters. 
-- Understanding of domain knowledge is at most important to solve the problem. So, research of credit analytics needs to be done. 
-- One of the challenges will be to deal with an imbalanced data set, as there will be less proportion of defaulters and high proportion of non -defaulters.
-- To identify pertinent measures to evaluate performance of machine learning models for an imbalanced data set.
+* Identification of relevant and strong indicators of defaulters. 
+* Understanding of domain knowledge is at most important to solve the problem. So, research of credit analytics needs to be done. 
+* One of the challenges will be to deal with an imbalanced data set, as there will be less proportion of defaulters and high proportion of non -defaulters.
+* To identify pertinent measures to evaluate performance of machine learning models for an imbalanced data set.
 
 
 <b>1) Data Collection</b>
