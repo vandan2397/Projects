@@ -56,23 +56,23 @@ This is a Academic project as part of curriculum of course.
   - So, we will get 99 (33 *3) coordinates of each pose as features to train the model.
   - ![image](https://user-images.githubusercontent.com/55615788/149187852-804c63fc-0961-42a2-9fc5-ffabc3fa260c.png)
 
+<b>4) Data Preparation</b>
+ - After extraction of coordinates, we prepared the dataset by adding labels of respective yoga pose to each sample.
+ - Below gives a snapshot of Dataset  containing few features and samples along with labels.
+ - ![image](https://user-images.githubusercontent.com/55615788/149193448-789ba4d8-f84b-44e5-a7a8-e8fd7d4cb11e.png)
 
-
-    
-<b>4) Feature Selection</b>
- - Utilized Random forest to get the most important features to provide it to machine learning models. 
 
 <b>5) Model Training</b>
-  - In this project, I have used 7 different ML algorithms and compared their performances.
+  - We utilized 7 different deep learning and machine learning algorithms to train the models. 
     - Logistic Regression
-    - SVM
+    - Support Vector Machine
     - Decision Tree
     - Random Forest
-    - AdaBoost
     - Gradient Boost
-    - Extreme Gradient Boost
+    - Neural Network
+    - Convolutional neural network
 
 <b>6) Perfomance Evaluation</b>
-  - To evaluate the performance of different models, I have used precision, recall, and F1 score as the dataset is bit imbalanced.
-  - ![image](https://user-images.githubusercontent.com/55615788/149054835-123544f7-f56f-4c7f-a67f-55386822b62a.png)
-  - Random Forest outperforms all other algorithms using stratified k fold cross validation.
+  - To evaluate the performance of different models, We have used accuracy as the data is balanced.
+  - ![image](https://user-images.githubusercontent.com/55615788/149194717-72593f14-c2b8-4aed-aecb-f1101d455557.png)
+  - Gradient Boosting outperforms all other algorithms.
