@@ -80,6 +80,7 @@ This is a Academic project as part of curriculum of course.
 <b>6) Detection</b>
 - For detection, mediapipe extracts coordinates of each keypoint from each frame and then predicts using trained model. 
 - Bhujangasana
+
 https://user-images.githubusercontent.com/55615788/149195903-27294cb1-a823-4adb-acae-6a518d8d6ac7.mp4
 
 ![Bhujangasana](https://user-images.githubusercontent.com/55615788/149195910-124f1194-6c85-4dda-bcbc-acfdb66720b7.png)
