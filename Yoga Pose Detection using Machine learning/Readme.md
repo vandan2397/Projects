@@ -76,3 +76,10 @@ This is a Academic project as part of curriculum of course.
   - To evaluate the performance of different models, We have used accuracy as the data is balanced.
    ![image](https://user-images.githubusercontent.com/55615788/149194717-72593f14-c2b8-4aed-aecb-f1101d455557.png)
   - Gradient Boosting outperforms all other algorithms.
+
+<b>6) Detection</b>
+
+
+https://user-images.githubusercontent.com/55615788/149195903-27294cb1-a823-4adb-acae-6a518d8d6ac7.mp4
+
+![Bhujangasana](https://user-images.githubusercontent.com/55615788/149195910-124f1194-6c85-4dda-bcbc-acfdb66720b7.png)
