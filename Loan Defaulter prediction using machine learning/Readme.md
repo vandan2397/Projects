@@ -27,24 +27,22 @@ It results in reducing the possibility of losses and manage financial risk. Basi
 <b>4) Feature Selection</b>
  - Utilized Random forest to get the most important features to provide it to machine learning models. 
 
-<b>3) Model Training</b>
-  - Model training is also a crucial part, which helps to learn patterns or features within data.
-  - In this project, I have used 4 different architectures to detect pneumonia in patient and compared their performances.
-    - Basic Model with (3 convolutions and 3 pooling alternately)
-    - VGG16 Architecture
-    - RESNET Architecture
-    - Inception net
+<b>5) Model Training</b>
+  - In this project, I have used 7 different ML algorithms and compared their performances.
+    - Logistic Regression
+    - SVM
+    - Decision Tree
+    - Random Forest
+    - AdaBoost
+    - Gradient Boost
+    - Extreme Gradient Boost
 
-<b>4) Perfomance Evaluation</b>
-  - To evaluate the performance of different models, I have used precision, recall, and F1 score as the dataset is imbalanced.
-  - Ratio of dataset was (Pneumonia-75) : (Normal-25)
-  - ![Performance](https://user-images.githubusercontent.com/55615788/118265208-6f67b280-b4d6-11eb-8fe8-c3f10f483200.JPG)
-  - From the above comparison, it can be concluded that VGG16 architecture outperfoms other architectures for this dataset.
+<b>6) Perfomance Evaluation</b>
+  - To evaluate the performance of different models, I have used precision, recall, and F1 score as the dataset is bit imbalanced.
+  - ![image](https://user-images.githubusercontent.com/55615788/149054835-123544f7-f56f-4c7f-a67f-55386822b62a.png)
+  - Random Forest outperforms all other algorithms using stratified k fold cross validation.
 
-<b>5) Deployment</b>
-  - Using VGG16 model, build a flask app to deploy the model.
-  - Results
-  ![image](https://user-images.githubusercontent.com/55615788/118357994-63452900-b59a-11eb-9ead-9079747c1a22.png)
+
   
   
   
