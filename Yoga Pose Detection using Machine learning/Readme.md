@@ -46,7 +46,7 @@ This is a Academic project as part of curriculum of course.
   - We also captured images of different poses from different angles.
   - Purpose of performing data augmentation was to add variance into data.
   - After performing data augmentation, our images increased to 1500.
-  - ![image](https://user-images.githubusercontent.com/55615788/149187272-8c145a5f-06b1-4ff7-867d-7119470d13ae.png)
+   ![image](https://user-images.githubusercontent.com/55615788/149187272-8c145a5f-06b1-4ff7-867d-7119470d13ae.png)
 
    
 <b>3) Feature Extraction</b>
@@ -54,12 +54,12 @@ This is a Academic project as part of curriculum of course.
   - There are total 33 key points of a body part estimated by media pipe.
   - Each Key Point has 3 coordinates.
   - So, we will get 99 (33 *3) coordinates of each pose as features to train the model.
-  - ![image](https://user-images.githubusercontent.com/55615788/149187852-804c63fc-0961-42a2-9fc5-ffabc3fa260c.png)
+   ![image](https://user-images.githubusercontent.com/55615788/149187852-804c63fc-0961-42a2-9fc5-ffabc3fa260c.png)
 
 <b>4) Data Preparation</b>
  - After extraction of coordinates, we prepared the dataset by adding labels of respective yoga pose to each sample.
  - Below gives a snapshot of Dataset  containing few features and samples along with labels.
- - ![image](https://user-images.githubusercontent.com/55615788/149193448-789ba4d8-f84b-44e5-a7a8-e8fd7d4cb11e.png)
+  ![image](https://user-images.githubusercontent.com/55615788/149193448-789ba4d8-f84b-44e5-a7a8-e8fd7d4cb11e.png)
 
 
 <b>5) Model Training</b>
@@ -74,5 +74,5 @@ This is a Academic project as part of curriculum of course.
 
 <b>6) Perfomance Evaluation</b>
   - To evaluate the performance of different models, We have used accuracy as the data is balanced.
-  - ![image](https://user-images.githubusercontent.com/55615788/149194717-72593f14-c2b8-4aed-aecb-f1101d455557.png)
+   ![image](https://user-images.githubusercontent.com/55615788/149194717-72593f14-c2b8-4aed-aecb-f1101d455557.png)
   - Gradient Boosting outperforms all other algorithms.
