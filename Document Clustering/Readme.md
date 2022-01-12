@@ -1,18 +1,22 @@
-<h2>IMPLEMENTATION OF CLUSTERING TECHNIQUES ON TEXT DATASET</h2>
+# IMPLEMENTATION OF CLUSTERING TECHNIQUES ON TEXT DATASET
 
-<h3>Flow of project<h3>
+### Introduction
 
-<h4>Data Acquisition </h4>
+### Flow of project
 
-<h4>Data Pre-processing </h4>
+<b>1) Data Collection</b>
 
-<h4>Tf-Idf matrix generation and document index graph generation</h4>
+<b>2)Data Acquisition </b>
 
-<h4>Similarity Calculation between documents </h4>
+<b>3)Data Pre-processing </b>
 
-<h4>Optimal parameter values calculation </h4>
+<b>4)Tf-Idf matrix generation and document index graph generation</b>
 
-<h4>Clustering(K-Means & DBSCAN)</h4>
+<b>5)Similarity Calculation between documents </b>
+
+<b>6)Optimal parameter values calculation </b>
+
+<b>7)Clustering(K-Means & DBSCAN)</b>
 
 
 ![Graphical Abstract 2](https://user-images.githubusercontent.com/55615788/136470685-23a58104-a90e-46a1-b5bf-4847e52e23b4.jpg)
