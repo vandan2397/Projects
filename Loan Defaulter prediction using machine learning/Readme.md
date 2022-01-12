@@ -1,6 +1,6 @@
-#LOAN DEFAULTERS PREDICTION USING MACHINE LEARNING
+# LOAN DEFAULTERS PREDICTION USING MACHINE LEARNING
 
-###Introduction
+### Introduction
 One of the most pivotal issues faced by banks these days is Credit Risk Assessment. It assists banks in evaluating if a candidate poses a potential to repay the loan or not. 
 It results in reducing the possibility of losses and manage financial risk. Basically, The aim of the project is to leverage machine learning techniques such as Logistic Regression, SVM, Decision Tree, Random Forest, Ada Boost, Gradient Boosting, Extreme-gradient boosting and Extra trees to build a robust model to evaluate credit risk involved and predict loan defaulters based on different features. However, building such models is a challenging task as the data being analyzed is enormous and complex. Here are some of the challenges.
 
@@ -9,8 +9,16 @@ It results in reducing the possibility of losses and manage financial risk. Basi
 * One of the challenges will be to deal with an imbalanced data set, as there will be less proportion of defaulters and high proportion of non -defaulters.
 * To identify pertinent measures to evaluate performance of machine learning models for an imbalanced data set.
 
-###Project Flow
+### Methods Used
+- Exploratory Data Analysis
+- Data Visualization
+- Machine Learning
 
+### Tools and Libraries
+- Python
+- Pandas, Numpy, Matplotlib, Seaborn, Sklearn, and XGBoost
+
+### Project Flow
 <b>1) Data Collection</b>
 - Data set used in the project is of Lending club and downloaded from Kaggle website. 
 - Lending club is the largest online loan marketplace, which facilitates business loan, personal loan, auto loan and finances for medical purposes. 
