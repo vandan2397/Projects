@@ -10,12 +10,22 @@ It results in reducing the possibility of losses and manage financial risk. Basi
 
 
 <b>1) Data Collection</b>
-  - Finding medical data is a challenging task. However, nowadays many open source platforms provide the medical data for research.
-  - This data is collected from kaggle website (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia).
+- Data set used in the project is of Lending club and downloaded from Kaggle website. 
+- Lending club is the largest online loan marketplace, which facilitates business loan, personal loan, auto loan and finances for medical purposes. 
+- This dataset has 27 different variables and has 396030 data points. All the variables are described in given table. 
   
-<b>2) Data Preparation/Augmentation</b>
-  - Data augmentation can be very useful to avoid overfitting as it adds invariance in to the data and generates different images.
-  - Here, I performed shear(0.2), rescaling, zoom(0.2), and Horizontal flip.
+<b>2) Data Preparation</b>
+  - To make data into more understandable form for analysis, dropped missing and repetitive data, pre processed some outliers.   
+
+<b>3) Exploratory Data Analysis and Feature Engineering</b>
+  - Engineered few features to make it feasible for prediction.
+    * Extracted zipcodes to emphasize the importance of location into data.
+    * Extracted year out of dates to provide loan disbursement information.
+    * Performed one hot encoding, which increased features from 27 to 84.
+    * Normalized the dataset to make it efficient for machine learning models to learn patterns.
+    
+<b>4) Feature Selection</b>
+ - Utilized Random forest to get the most important features to provide it to machine learning models. 
 
 <b>3) Model Training</b>
   - Model training is also a crucial part, which helps to learn patterns or features within data.
