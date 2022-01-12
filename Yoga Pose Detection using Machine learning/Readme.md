@@ -87,8 +87,10 @@ https://user-images.githubusercontent.com/55615788/149195903-27294cb1-a823-4adb-
 
 - <b>Vriksasana</b>
 
+![Vrikshasana](https://user-images.githubusercontent.com/55615788/149197387-31492145-ab39-4bfb-b542-ee1bd2368527.png)
+
 https://user-images.githubusercontent.com/55615788/149197380-29dea956-3143-4b8b-95f7-7206b1655b56.mp4
 
-![Vrikshasana](https://user-images.githubusercontent.com/55615788/149197387-31492145-ab39-4bfb-b542-ee1bd2368527.png)
+
 
 
