@@ -22,6 +22,8 @@ It results in reducing the possibility of losses and manage financial risk. Basi
 ### Project Flow
 <b>1) Data Collection</b>
 - Data set used in the project is of Lending club and downloaded from Kaggle website. 
+    * https://www.lendingclub.com/
+    * https://www.kaggle.com/jeandedieunyandwi/lending-club-dataset
 - Lending club is the largest online loan marketplace, which facilitates business loan, personal loan, auto loan and finances for medical purposes. 
 - This dataset has 27 different variables and has 396030 data points. All the variables are described in given table. 
   
