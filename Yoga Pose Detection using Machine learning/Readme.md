@@ -50,11 +50,14 @@ This is a Academic project as part of curriculum of course.
 
    
 <b>3) Feature Extraction</b>
-  - Engineered few features to make it feasible for prediction.
-    * Extracted zipcodes to emphasize the importance of location into data.
-    * Extracted year out of dates to provide loan disbursement information.
-    * Performed one hot encoding, which increased features from 27 to 84.
-    * Normalized the dataset to make it efficient for machine learning models to learn patterns.
+  - For pose estimation and feature extraction, we leveraged media pipe to get the coordinates of  every key points.
+  - There are total 33 key points of a body part estimated by media pipe.
+  - Each Key Point has 3 coordinates.
+  - So, we will get 99 (33 *3) coordinates of each pose as features to train the model.
+  - ![image](https://user-images.githubusercontent.com/55615788/149187852-804c63fc-0961-42a2-9fc5-ffabc3fa260c.png)
+
+
+
     
 <b>4) Feature Selection</b>
  - Utilized Random forest to get the most important features to provide it to machine learning models. 
