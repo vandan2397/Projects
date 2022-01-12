@@ -17,6 +17,7 @@ It results in reducing the possibility of losses and manage financial risk. Basi
 ### Tools and Libraries
 - Python
 - Pandas, Numpy, Matplotlib, Seaborn, Sklearn, and XGBoost
+- Jupyter IDE
 
 ### Project Flow
 <b>1) Data Collection</b>
