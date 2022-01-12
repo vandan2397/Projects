@@ -9,6 +9,12 @@ It results in reducing the possibility of losses and manage financial risk. Basi
 * One of the challenges will be to deal with an imbalanced data set, as there will be less proportion of defaulters and high proportion of non -defaulters.
 * To identify pertinent measures to evaluate performance of machine learning models for an imbalanced data set.
 
+This is a Academic project as part of curriculum of course.
+
+### Project Partner
+- Lipi Shah (University of Houston)
+- Anirudh Pallerla (University of Houston)
+
 ### Methods Used
 - Exploratory Data Analysis
 - Data Visualization
