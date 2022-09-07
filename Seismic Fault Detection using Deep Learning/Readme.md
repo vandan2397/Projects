@@ -12,3 +12,9 @@
   - Eigen structure coherence, gradient structure tensor have noise, which is sometimes difficult to differentiate.
 
 In order to solve the problem, we are utilizing computer vision techniques.
+
+### Objective
+* The objective is to detect faults in seismic images using deep learning approach of image segmentation. 
+* This project attempts to do a comparative analysis of three such image segmentation techniques: FPN, Unet, and Linknet along with three feature extractors Resnet, Inceptionnet, and VGG16.
+* Leveraging best performing model, we are detecting faults in form of masked images.
+
