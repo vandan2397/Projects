@@ -51,3 +51,16 @@ In order to solve the problem, we are utilizing computer vision techniques.
 * Encoding  the levels of categorical features into numeric values.
 * Train-Test Split
 
+<b>5) Model Train and Test</b>
+* Using train data, we trained 3 segmentation models with 3 feature extractors. In a way, we performed 9 experiments.
+
+<b>Results</b>
+
+![image](https://user-images.githubusercontent.com/55615788/188995003-c44d447d-1eb2-4a40-a30c-0395de68d2e0.png)
+
+![image](https://user-images.githubusercontent.com/55615788/188995046-9aa421e0-176d-45bd-a58c-c3f7d5682c6d.png)
+
+<b>Results</b>
+
+* The FPN is the best image segmentation technique among all the three as it has the best train and test mean Intersection over the Union score among all the three feature extractors for these dataset. 
+* VGG16 is the best extractor for all the three image segmentation techniques as it has the highest mean Intersection over Union score for all the image segmentation techniques for both the train and test data.
