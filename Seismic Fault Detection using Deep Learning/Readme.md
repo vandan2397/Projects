@@ -24,7 +24,7 @@ In order to solve the problem, we are utilizing computer vision techniques.
 * The detection of faults through ML has the potential to reduce both the time and cost of getting the oil out of the ground
 
 ### Workflow
-![image](https://user-images.githubusercontent.com/55615788/188992664-e949e1e0-d306-4b38-a30b-39e87f18494b.png)
+![image](https://user-images.githubusercontent.com/55615788/188993986-224c33ed-e928-4a23-9f10-67214c0a7c47.png)
 
 <b>1) Dataset </b>
 * The dataset used in our project was the “Netherlands f3 block data”. 
@@ -39,4 +39,15 @@ In order to solve the problem, we are utilizing computer vision techniques.
 * Results - the loss was significantly reduced, and the mean IOU increased as compared to results with 200 images.
 
 ![image](https://user-images.githubusercontent.com/55615788/188993867-b39a4e08-65ab-4805-939a-669352c5e2ed.png)
+
+<b>3) Data Preprocessing</b>
+* Imported seismic images and resized to 128 * 128 pixels
+* Store all the resized images into a list
+* Labelling of image is the binarization of an image. We seek to convert a grayscale image to a binary image, where the pixels are either 0 or 255.
+* Convert the image with pixels 0 or 255 to 0 or 1.
+* Provides a ground truth information to a model which helps in segmentation.
+
+<b>4) Feature engineering</b>
+* Encoding  the levels of categorical features into numeric values.
+* Train-Test Split
 
